@@ -63,6 +63,9 @@ set (cppmetrics_SOURCES
   src/cppmetrics/core/exp_decay_sample.cpp
   src/cppmetrics/core/snapshot.cpp
   src/cppmetrics/core/uniform_sample.cpp
+  src/cppmetrics/custom/abstractmetric.cpp
+  src/cppmetrics/custom/counter_metric.cpp
+  src/cppmetrics/exec/executor.cpp
 )
 
 set (cppmetrics_core_EXTERNAL_HEADERS
@@ -82,6 +85,13 @@ set (cppmetrics_core_EXTERNAL_HEADERS
   src/cppmetrics/core/uniform_sample.h
   src/cppmetrics/core/sampling.h
   src/cppmetrics/core/types.h
+  src/cppmetrics/custom/metric_value.h
+  src/cppmetrics/custom/metric_result.h
+  src/cppmetrics/custom/abstractmetric.h
+  src/cppmetrics/custom/counter_metric.h
+  src/cppmetrics/custom/counter_metric_value.h
+  src/cppmetrics/exec/executor.h
+  src/cppmetrics/exec/metric_event_producer.h
 )
 
 

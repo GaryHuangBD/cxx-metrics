@@ -36,8 +36,8 @@ struct PrintingEventHandler : Disruptor::IEventHandler< LongEvent >
 private:
     std::mutex m_mutex;
     std::condition_variable m_allDone;
-    int m_toProcess;
     int m_actuallyProcessed;
+    int m_toProcess;
 };
 
 int main()

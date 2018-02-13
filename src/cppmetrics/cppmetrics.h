@@ -29,7 +29,6 @@
 #include "cppmetrics/core/reporter.h"
 #include "cppmetrics/core/sample.h"
 #include "cppmetrics/core/sampling.h"
-#include "cppmetrics/core/scheduled_reporter.h"
 #include "cppmetrics/core/snapshot.h"
 #include "cppmetrics/core/timer.h"
 #include "cppmetrics/core/trivial_gauge.h"

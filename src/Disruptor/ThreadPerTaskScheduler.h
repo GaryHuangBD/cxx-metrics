@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Disruptor/ITaskScheduler.h"
+#include <bits/stl_vector.h>
 
 
 namespace Disruptor
